@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+}
+header{
+    color: aquamarine;
+}
+
+header,#ctn2 {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+input:focus{
+    outline-color: aquamarine;
+}
+button:hover{
+    cursor: pointer;
+}
+input{
+    font-family: 50px;
+}
+form input, form button{
+    padding: 20px;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 0px;
+}
+form input{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+button:active{
+background-color: aquamarine;
+color: aliceblue;
+transition: all 0.3s ease;
+}
+.listedItems{
+    color: aliceblue;
+}
+
+#todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+.list{
+    margin: 3% 7%;
+    background-color: aqua;
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.listedItems{
+    color: black;
+    align-items: center;
+}
+
+.list li{
+    flex: 1;
+}
+.combtn,.delbtn{
+    /* background-color: rgb(102, 201, 201); */
+    padding: 0.4rem;
+    cursor: pointer;
+    color: rgb(22, 31, 31);
+}
+.delbtn{
+    color:aqua;
+    background-color: black;
+}
+.combtn{
+    color: aqua;
+    background-color: black;
+}
+.delbtn:hover{
+    color: rgb(95, 2, 2);
+    background-color: black;
+}
+.combtn:hover{
+    color: rgb(3, 136, 3);
+    background-color: black;
+}
+.listedItems{
+    padding-top: 4px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+}
+
+.fa-trash, .fa-check{
+    pointer-events: none;
+}
+.completed{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.filter-div{
+    border: none;
+    background-color: aliceblue;
+    border-radius: none;
+}
+.filter-select{
+    width: 15px;
+    border: none;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding-right: 50px;
+    background-color: aliceblue;
+}
+.filter-option{
+    font-family: 50px;
+}
+
+
+
+
